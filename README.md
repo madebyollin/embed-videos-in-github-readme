@@ -1,9 +1,5 @@
 # How do I embed a silent, looping MP4 into a GitHub README?
 
-## Markdown Image Tag pointing to MP4
+## Drag MP4 into markdown editor?
 
-```markdown
-![](./source_video.mp4)
-```
-
-![](./source_video.mp4)
+https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe
