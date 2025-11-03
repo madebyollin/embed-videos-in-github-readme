@@ -31,4 +31,8 @@ Doesn't even show up. Is the markdown parser stripping them out? Do muted <1MB m
 
 I hear it's [the new thing](https://developers.google.com/speed/webp/faq#why_should_i_use_animated_webp).
 
-![source_video.webp](https://github.com/user-attachments/assets/3f5c8a03-92b9-45d4-999e-8f717d4c259f)
+```bash
+ffmpeg -i source_video.mp4 -quality 90 -loop 0 source_video.webp
+```
+
+![source_video](https://github.com/user-attachments/assets/daae6ee9-e5d3-427c-a10d-a72482044113)
