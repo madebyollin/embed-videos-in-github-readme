@@ -31,7 +31,7 @@ Doesn't even show up. Is the markdown parser stripping them out? Do muted <1MB m
 
 I hear it's [the new thing](https://developers.google.com/speed/webp/faq#why_should_i_use_animated_webp). As expected, it plays fine in Chrome.
 
-```shell
+```bash
 ffmpeg -i source_video.mp4 -quality 90 -loop 0 source_video.webp
 ```
 
@@ -41,9 +41,11 @@ However, in Safari, the animated webp gradually... becomes slow motion? How does
 
 https://github.com/user-attachments/assets/ecba4277-9145-4b65-8ee6-c3475531d977
 
-## Add a 4MB animated GIF
+## Add a 4MB animated GIF ✅
 
-```shell
+You could not live with your own failure, and where did that bring you? Back to me.
+
+```bash
 gifski source_video.mp4 --output source_video.gif
 ```
 
