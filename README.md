@@ -6,7 +6,7 @@ Plays, but doesn't loop or autoplay.
 
 https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe
 
-## Markdown image reference to dragged file? ❌
+## Add markdown image reference to dragged file? ❌
 
 Works in Safari but not in Chrome thanks to [this Safari-specific quirk](https://lapcatsoftware.com/articles/img1.html).
 
@@ -16,3 +16,12 @@ Works in Safari but not in Chrome thanks to [this Safari-specific quirk](https:/
 ![](https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe)
 ```
 ![](https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe)
+
+## Add HTML video tag referencing the dragged file?
+
+```markdown
+<video playsinline autoplay loop muted>source src="https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe" type="video/mp4"></video>
+```
+
+<video playsinline autoplay loop muted>source src="https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe" type="video/mp4"></video>
+
