@@ -26,3 +26,9 @@ Doesn't even show up. Is the markdown parser stripping them out? Do muted <1MB m
 ```
 
 <video playsinline autoplay loop muted>source src="https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe" type="video/mp4"></video>
+
+## Add an animated WebP file?
+
+I hear it's [the new thing](https://developers.google.com/speed/webp/faq#why_should_i_use_animated_webp).
+
+![source_video.webp](https://github.com/user-attachments/assets/3f5c8a03-92b9-45d4-999e-8f717d4c259f)
