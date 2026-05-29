@@ -22,10 +22,10 @@ Works in Safari but not in Chrome thanks to [this Safari-specific quirk](https:/
 Doesn't even show up. Is the markdown parser stripping them out? Do muted <1MB mp4 videos represent a security risk or something?
 
 ```markdown
-<video playsinline autoplay loop muted>source src="https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe" type="video/mp4"></video>
+<video playsinline autoplay loop muted><source src="https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe" type="video/mp4"></video>
 ```
 
-<video playsinline autoplay loop muted>source src="https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe" type="video/mp4"></video>
+<video playsinline autoplay loop muted><source src="https://github.com/user-attachments/assets/54e1231f-49a3-4b6b-868c-8168c16732fe" type="video/mp4"></video>
 
 ## Add an animated WebP file? ❌
 
